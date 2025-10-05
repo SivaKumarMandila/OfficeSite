@@ -102,6 +102,8 @@
     <Content Include="Images\EngineIcon.png" />
     <Content Include="Images\EnginesImage.jpg" />
     <Content Include="Images\FormerCMD.png" />
+    <Content Include="Images\FormerCMDFamily.jpg" />
+    <Content Include="Images\FormerCMDShield.jpg" />
     <Content Include="Images\Hansa.jpg" />
     <Content Include="Images\HansaImage.JPG" />
     <Content Include="Images\HansaLogo.jfif" />
