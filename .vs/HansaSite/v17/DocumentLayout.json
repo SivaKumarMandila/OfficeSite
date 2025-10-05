@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\work\\HansaSolutionsSite\\HansaSite\\",
+  "WorkspaceRootPath": "F:\\HansaSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|f:\\work\\hansasolutionssite\\hansasite\\hansasite\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|f:\\hansasite\\hansasite\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|solutionrelative:hansasite\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|f:\\work\\hansasolutionssite\\hansasite\\hansasite\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|F:\\HansaSite\\hansasite\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|solutionrelative:hansasite\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|F:\\work\\HansaSolutionsSite\\HansaSite\\hansasite\\blog-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|F:\\HansaSite\\hansasite\\blog-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{914AC0E8-B748-41D1-B416-638B757870FC}|HansaSite\\HansaSite.csproj|solutionrelative:hansasite\\blog-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -28,37 +28,35 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "style.css",
-              "DocumentMoniker": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\style.css",
+              "DocumentMoniker": "F:\\HansaSite\\HansaSite\\style.css",
               "RelativeDocumentMoniker": "HansaSite\\style.css",
-              "ToolTip": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\style.css",
+              "ToolTip": "F:\\HansaSite\\HansaSite\\style.css",
               "RelativeToolTip": "HansaSite\\style.css",
               "ViewState": "AgIAAAYDAAAAAAAAAAAAwBoDAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-04T19:34:16.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T19:34:16.207Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "blog-grid.html",
-              "DocumentMoniker": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\blog-grid.html",
+              "DocumentMoniker": "F:\\HansaSite\\HansaSite\\blog-grid.html",
               "RelativeDocumentMoniker": "HansaSite\\blog-grid.html",
-              "ToolTip": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\blog-grid.html",
+              "ToolTip": "F:\\HansaSite\\HansaSite\\blog-grid.html",
               "RelativeToolTip": "HansaSite\\blog-grid.html",
               "ViewState": "AgIAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-03T21:00:28.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T21:00:28.944Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.html",
-              "DocumentMoniker": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\index.html",
+              "DocumentMoniker": "F:\\HansaSite\\HansaSite\\index.html",
               "RelativeDocumentMoniker": "HansaSite\\index.html",
-              "ToolTip": "F:\\work\\HansaSolutionsSite\\HansaSite\\HansaSite\\index.html",
+              "ToolTip": "F:\\HansaSite\\HansaSite\\index.html",
               "RelativeToolTip": "HansaSite\\index.html",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAQwOsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAQwOsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-10-03T20:00:59.062Z",
               "EditorCaption": ""
