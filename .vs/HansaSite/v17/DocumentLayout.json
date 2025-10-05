@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -56,7 +60,7 @@
               "RelativeDocumentMoniker": "HansaSite\\index.html",
               "ToolTip": "F:\\HansaSite\\HansaSite\\index.html",
               "RelativeToolTip": "HansaSite\\index.html",
-              "ViewState": "AgIAALQAAAAAAAAAAAAQwOsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-10-03T20:00:59.062Z",
               "EditorCaption": ""
