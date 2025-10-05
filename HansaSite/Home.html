@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hansa Solutions</title>
+    <!-- Bootstrap 5.3 CSS -->   
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #fff; /* Example: white text */
+            /*background-color: #0d6efd; Example: blue background */
+            border-radius: .25rem; /* Example: rounded corners */
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+        }
+
+        .hero {
+            padding: 3rem 1rem;
+            text-align: center;
+            background: linear-gradient( 153deg, #0c88c9, #f7de87);
+            color: white;
+            text-shadow: 0px 7px 7px #000000;
+        }
+
+        .section {
+            scroll-margin-top: 70px;
+            padding: 3rem 1rem;
+        }
+
+        .progress-container {
+            position: fixed; /* Or sticky, depending on desired behavior */
+            top: /* Height of your navigation bar */;
+            left: 0;
+            width: 100%;
+            height: 5px; /* Adjust height as needed */
+            background-color: transparent; /* Background color of the container */
+            z-index: 999; /* Ensure it's above other content */
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%; /* Initial width */
+            background-color: dodgerblue; /* Color of the progress bar */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container" style="margin-left: 10px !important; max-width: 100%; margin-right: 10px !important;">
+            <img src="Images/HansaLogo.png" style="width: 150px; border-radius: 10px; box-shadow: 3px 11px 7px black " />
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#consulting">Consulting</a></li>
+                            <li><a class="dropdown-item" href="#integration">Integration</a></li>
+                            <li><a class="dropdown-item" href="#support">Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#IOne">IOne</a></li>
+                            <li><a class="dropdown-item" href="#ReNova">ReNova</a></li>
+                            <li><a class="dropdown-item" href="#Experts">Experts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    <!-- Hero Section -->
+
+    <section class="hero section" id="home">
+        <div class="container">
+            <h1>Welcome to Hansa Solutions</h1>
+            <p class="lead">
+                Policy Admin System with Built-in Workflows, Rule Engines, Document Management, ESB, Portals, Many More..
+            </p>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="mb-4">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" id="consulting">Consulting</h5>
+                            <p class="card-text">We provide expert guidance and strategy planning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" id="integration">Integration</h5>
+                            <p class="card-text">Seamlessly integrate systems and workflows.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" id="support">Support</h5>
+                            <p class="card-text">24/7 support and maintenance services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="section bg-light" id="products">
+        <div class="container">
+            <h2 class="mb-4">Our Products</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" id="productA">Product A</h5>
+                            <p class="card-text">Lightweight starter product for SMBs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title" id="productB">Product B</h5>
+                            <p class="card-text">Enterprise-grade product with advanced features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="IOne">
+        <div class="container">
+            <h2>IOne</h2>
+            <p>
+                A Complete Suite for Life Insurance Policy Administration
+                Actuarial suite with Product Pricing, Benefit Illustrations, Lead Management, Quotations, New Business, Collections, Auto/Expert Underwriting, Conversion, Commissions,
+            </p>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a technology-driven company delivering innovative solutions tailored to your needs.</p>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="section bg-light" id="contact">
+        <div class="container">
+            <h2 style="margin:0;padding-bottom:10px;text-align:center">Contact Us</h2>
+            <h5 style="text-align:center;">Corporate Office:</h5>
+            <p style="text-align:center;">Hansa Solutions India Pvt Ltd., 7A, Melange Tower, Patrikanagar, Madhapur, Hyderabad, India 500 081</p>
+            <div class="d-flex" style="text-align:center;">
+                <div class="p-2" style="text-align:center;">
+                    <h5>For Partnering</h5><p style="margin:0;padding:0;">Email: <a href="mailto:sales@hansasolutions.com">sales@hansasolutions.com</a></p>
+                    <p style="margin:0;padding:0;">Phone: +91 40 4976 5002</p>
+                </div>
+                <div class="p-2 ms-auto" style="text-align:center;">
+                    <h5>For Passion</h5>
+                    <p style="margin:0;padding:0;">Email: <a href="mailto:hr@hansasolutions.com">hr@hansasolutions.com</a></p>
+                    <p style="margin:0;padding:0;">Phone: +91 40 4976 5006</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-light">
+        <p class="mb-0">© <span id="year"></span> Hansa Solutions India PVT LTD. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS (latest) -->
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script type="text/javascript">
+        window.onscroll = function () {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.querySelector(".progress-bar").style.width = scrolled + "%";
+        };
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    // Remove 'active' from all links
+                    navLinks.forEach(item => item.classList.remove("active"));
+                    // Add 'active' to the clicked link
+                    this.classList.add("active");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
